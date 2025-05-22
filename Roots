@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Hello, I'm [Your Name]</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+  </div>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>I'm a passionate web developer building creative and responsive websites. I specialize in HTML, CSS, and Python (Flask).</p>
+  </section>
+
+  <section class="section">
+    <h2>Sample Projects</h2>
+    <ul>
+      <li>Class Project Website</li>
+      <li>Banking App UI with Flask</li>
+      <li>Personal Blog Template</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email: yourname@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
